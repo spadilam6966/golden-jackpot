@@ -1,0 +1,20 @@
+
+
+/* src/App.css */
+body {
+  padding-top: 100px; /* Adjust this value based on the height of your header */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
