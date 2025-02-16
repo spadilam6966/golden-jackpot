@@ -137,7 +137,7 @@ const DeletePrize = () => {
     };
 
     try {
-      const response = await axios.put('http://localhost:8080/delete/prizes', prizeData, {
+      const response = await axios.put('http://18.117.249.93:8080/delete/prizes', prizeData, {
         headers: {
           'Content-Type': 'application/json',
         },

@@ -126,7 +126,7 @@ const AllResults = () => {
 
       setIsFetching(true); // Start fetching data
       try {
-        const response = await axios.get(`http://localhost:8080/prizes?date=${drawDate}`);
+        const response = await axios.get(`http://18.117.249.93:8080/prizes?date=${drawDate}`);
         if (response.data && response.data.prizes.length > 0) {
           setResults(response.data.prizes);
           setError('');

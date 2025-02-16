@@ -27,15 +27,14 @@ const Scheme = () => {
                   </thead>
                   <tbody>
                     {[
-                      { prize: '1st Prize', amount: 'rs.10,00,000/-', digits: 'DIGITS 6' },
-                      { prize: '2nd Prize', amount: 'rs.5,00,000/-', digits: 'DIGITS 6' },
-                      { prize: '3rd Prize', amount: 'rs.1,00,000/-', digits: 'DIGITS 5' },
-                      { prize: '4th Prize', amount: 'rs.50,000/-', digits: 'DIGITS 4' },
-                      { prize: '5th Prize', amount: 'rs.50,000/-', digits: 'DIGITS 4' },
-                      { prize: '6th Prize', amount: 'rs.20,000/-', digits: 'DIGITS 3' },
-                      { prize: '7th Prize', amount: 'rs.10,000/-', digits: 'DIGITS 3' },
-                      { prize: '8th Prize', amount: 'rs.5,000/-', digits: 'DIGITS 3' },
-                      { prize: '9th Prize', amount: 'rs.5,000/-', digits: 'DIGITS 3' },
+                      { prize: '1st Prize', amount: 'Rs.5,00,000/-', digits: 'ABCDEF' },
+                      { prize: '2nd Prize', amount: 'Rs.1,00,000/-', digits: 'BCDEF' },
+                      { prize: '3rd Prize', amount: 'Rs.50,000/-', digits: 'CDEF' },
+                      { prize: '4th Prize', amount: 'Rs.10,000/-', digits: 'CDEF' },
+                      { prize: '5th Prize', amount: 'Rs.5,000/-', digits: 'DEF' },
+                      { prize: '6th Prize', amount: 'Rs.2,500/-', digits: 'DEF' },
+                      { prize: '7th Prize', amount: 'Rs.1,000/-', digits: 'EF' },
+                      { prize: '8th Prize', amount: 'Rs.100/-', digits: 'F' }
                     ].map((row, index) => (
                       <tr key={index}>
                         <td>{row.prize}</td>

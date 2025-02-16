@@ -3,6 +3,7 @@ import PrizeForm from './PrizeForm';
 import DeletePrize from './deletePrize';
 import UpdatePrizeForm from './UpdatePrizeForm';
 import AllResults from './AllResults';
+import DeletePrizeByDate from './DeletePrizeByDate';
 
 const Admin = () => {
   return (
@@ -11,6 +12,7 @@ const Admin = () => {
       <AllResults />
       <DeletePrize />
       <UpdatePrizeForm />
+      <DeletePrizeByDate />
     </>
   );
 }

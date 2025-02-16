@@ -37,7 +37,7 @@ const Winners = () => {
     const fetchPrizeData = async () => {
       try {
         const currentDate = new Date().toISOString().split('T')[0]; // Get current date in 'YYYY-MM-DD' format
-        const response = await axios.get(`http://localhost:8080/prizes?date=${currentDate}`); // Adjust with the actual endpoint
+        const response = await axios.get(`http://18.117.249.93:8080/prizes?date=${currentDate}`); // Adjust with the actual endpoint
         console.log(response.data);  // Log the data to verify the structure
         setPrizeData(response.data);
         setLoading(false);

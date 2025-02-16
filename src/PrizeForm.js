@@ -137,7 +137,7 @@ const PrizeForm = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:8080/add/prizes', prizeData, {
+      const response = await axios.post('http://18.117.249.93:8080/add/prizes', prizeData, {
         headers: {
           'Content-Type': 'application/json',
         },
